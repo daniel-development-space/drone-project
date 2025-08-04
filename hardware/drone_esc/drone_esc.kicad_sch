@@ -4,23 +4,127 @@
 	(generator_version "9.0")
 	(uuid "b5a13fd4-6868-4fff-a56c-eae40f1d53c7")
 	(paper "A4")
-	(lib_symbols)
+	(title_block
+		(title "Drone esc board overview")
+		(date "2025-08-04")
+		(rev "1.0")
+		(company "Daniel Development Space")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 15.24 15.24)
+		(end 173.99 194.31)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 149 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 189ba83c-f6b8-4347-bced-63ec7332a644)
+	)
 	(rectangle
 		(start 177.8 15.24)
 		(end 280.67 162.56)
 		(stroke
-			(width 0)
-			(type default)
+			(width 1.27)
+			(type solid)
+			(color 149 0 0 1)
 		)
 		(fill
 			(type none)
 		)
 		(uuid 655c95d7-729b-426c-a957-ff8d88f521e7)
 	)
-	(text_box "Drone Esc:\n_{subscript}"
+	(text_box "Drone Esc:\n_{ Integrated Electronic Speed Controller (ESC) board for}\n_{ quadcopter applications featuring four independent BLDC} \n_{ motor drive channels with centralized control and power }\n_{ management.}\n\nKey Specifications:\n_{ Input Voltage: 4S LiPo (7.4V - 25.2V nominal)}\n_{ Output Current: 25A continuous per channel (100A total)}\n_{ Motor Support: 3-phase brushless DC motors}\n_{ Control Interface: PWM input (1-2ms pulse width, 50-400Hz)}\n_{ Feedback: Back-EMF sensing for sensorless commutation}\n_{ Protection: Over-current, over-temperature, under-voltage }\n_{ lockout}"
 		(exclude_from_sim no)
-		(at 179.07 16.51 0)
-		(size 100.33 144.78)
+		(at 181.61 19.05 0)
+		(size 97.79 137.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -34,21 +138,462 @@
 				(face "Agency FB")
 				(size 5.08 5.08)
 				(bold yes)
+				(color 149 0 0 1)
 			)
 			(justify left top)
 		)
 		(uuid "b6e9f444-6950-4620-93ca-2589cdd3cf9b")
 	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 153.67 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49bc5598-1b11-4c76-a8f6-e509573975ff")
+		(property "Reference" "H2"
+			(at 156.21 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 156.21 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 153.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 153.67 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "590072a5-dcd0-4711-ab74-e3a995fa319f")
+		(property "Reference" "H4"
+			(at 156.21 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 156.21 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 153.67 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 153.67 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab0e4f06-9838-4b95-94eb-c0b995310129")
+		(property "Reference" "H3"
+			(at 156.21 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 156.21 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 153.67 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 153.67 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fefcfa9c-b26a-4de6-ad22-af20076026cc")
+		(property "Reference" "H1"
+			(at 156.21 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 156.21 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 153.67 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 53.34 22.86)
-		(size 24.13 36.83)
+		(at 123.19 24.13)
+		(size 24.13 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e547849-098b-4e9e-9417-dcd1ad6b4af3")
+		(property "Sheetname" "ESC2"
+			(at 123.19 22.7834 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/esc_2.kicad_sch"
+			(at 123.19 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 91.44)
+		(size 24.13 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15e37512-5316-4c1c-aba7-1d8e1d7663c0")
+		(property "Sheetname" "MCU4"
+			(at 88.9 90.0934 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/mcu_4.kicad_sch"
+			(at 88.9 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 91.44)
+		(size 24.13 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "189a97be-36f6-4952-93ff-62f3a17cbe5b")
+		(property "Sheetname" "MCU3"
+			(at 20.32 90.0934 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/mcu_3.kicad_sch"
+			(at 20.32 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 91.44)
+		(size 24.13 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "197a88c0-01e6-4a4c-9363-f93dfbc08269")
+		(property "Sheetname" "ESC3"
+			(at 54.61 90.0934 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/esc_3.kicad_sch"
+			(at 54.61 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 24.13)
+		(size 24.13 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
 			(type solid)
 		)
 		(fill
@@ -56,7 +601,7 @@
 		)
 		(uuid "1c0adf10-7558-4c66-8a8d-f42e3254a4bc")
 		(property "Sheetname" "ESC1"
-			(at 53.34 21.5134 0)
+			(at 54.61 22.7834 0)
 			(effects
 				(font
 					(face "Agency FB")
@@ -68,7 +613,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/esc_1.kicad_sch"
-			(at 53.34 60.2746 0)
+			(at 54.61 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87,14 +632,14 @@
 	)
 	(sheet
 		(at 20.32 154.94)
-		(size 147.32 35.56)
+		(size 127 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.508)
 			(type solid)
 		)
 		(fill
@@ -102,7 +647,7 @@
 		)
 		(uuid "2b3d35f8-ad3a-479e-afa3-88f04276a871")
 		(property "Sheetname" "Power"
-			(at 20.32 152.9584 0)
+			(at 20.32 152.7806 0)
 			(effects
 				(font
 					(face "Agency FB")
@@ -114,7 +659,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/power.kicad_sch"
-			(at 20.32 191.0846 0)
+			(at 20.32 191.2624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,15 +677,61 @@
 		)
 	)
 	(sheet
-		(at 20.32 22.86)
-		(size 24.13 36.83)
+		(at 123.19 91.44)
+		(size 24.13 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c7f729c-8a7e-42fc-ba88-d14a0a817b1c")
+		(property "Sheetname" "ESC4"
+			(at 123.19 90.0934 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/esc_4.kicad_sch"
+			(at 123.19 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 24.13)
+		(size 24.13 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
 			(type solid)
 		)
 		(fill
@@ -148,7 +739,7 @@
 		)
 		(uuid "91ef4a31-1dcb-46c6-9edf-7447de09e4c1")
 		(property "Sheetname" "MCU1"
-			(at 20.32 21.5134 0)
+			(at 20.32 22.7834 0)
 			(effects
 				(font
 					(face "Agency FB")
@@ -160,7 +751,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/mcu_1.kicad_sch"
-			(at 20.32 60.2746 0)
+			(at 20.32 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173,6 +764,52 @@
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 24.13)
+		(size 24.13 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ca7d821-1165-422f-8f77-b837d2adb017")
+		(property "Sheetname" "MCU2"
+			(at 88.9 22.7834 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/mcu_2.kicad_sch"
+			(at 88.9 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
+					(page "5")
 				)
 			)
 		)
