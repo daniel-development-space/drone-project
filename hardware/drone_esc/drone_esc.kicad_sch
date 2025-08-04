@@ -1,0 +1,91 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b5a13fd4-6868-4fff-a56c-eae40f1d53c7")
+	(paper "A4")
+	(lib_symbols)
+	(text "Drone ESC\n\n"
+		(exclude_from_sim no)
+		(at 192.024 27.686 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 5.08 5.08)
+				(bold yes)
+			)
+		)
+		(uuid "f0371429-8dfc-458a-8de9-7570aec06d12")
+	)
+	(text_box "Drone Esc:"
+		(exclude_from_sim no)
+		(at 177.292 26.67 0)
+		(size 102.616 134.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left top)
+		)
+		(uuid "b6e9f444-6950-4620-93ca-2589cdd3cf9b")
+	)
+	(sheet
+		(at 20.32 154.94)
+		(size 147.32 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2b3d35f8-ad3a-479e-afa3-88f04276a871")
+		(property "Sheetname" "Power"
+			(at 20.32 152.9584 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 20.32 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
