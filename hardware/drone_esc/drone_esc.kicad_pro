@@ -616,6 +616,14 @@
     [
       "2b3d35f8-ad3a-479e-afa3-88f04276a871",
       "Power"
+    ],
+    [
+      "91ef4a31-1dcb-46c6-9edf-7447de09e4c1",
+      "MCU1"
+    ],
+    [
+      "1c0adf10-7558-4c66-8a8d-f42e3254a4bc",
+      "ESC1"
     ]
   ],
   "text_variables": {}

@@ -5,25 +5,25 @@
 	(uuid "b5a13fd4-6868-4fff-a56c-eae40f1d53c7")
 	(paper "A4")
 	(lib_symbols)
-	(text "Drone ESC\n\n"
-		(exclude_from_sim no)
-		(at 192.024 27.686 0)
-		(effects
-			(font
-				(face "Agency FB")
-				(size 5.08 5.08)
-				(bold yes)
-			)
-		)
-		(uuid "f0371429-8dfc-458a-8de9-7570aec06d12")
-	)
-	(text_box "Drone Esc:"
-		(exclude_from_sim no)
-		(at 177.292 26.67 0)
-		(size 102.616 134.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
+	(rectangle
+		(start 177.8 15.24)
+		(end 280.67 162.56)
 		(stroke
 			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 655c95d7-729b-426c-a957-ff8d88f521e7)
+	)
+	(text_box "Drone Esc:\n_{subscript}"
+		(exclude_from_sim no)
+		(at 179.07 16.51 0)
+		(size 100.33 144.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
 			(type solid)
 		)
 		(fill
@@ -31,11 +31,59 @@
 		)
 		(effects
 			(font
-				(size 3.81 3.81)
+				(face "Agency FB")
+				(size 5.08 5.08)
+				(bold yes)
 			)
 			(justify left top)
 		)
 		(uuid "b6e9f444-6950-4620-93ca-2589cdd3cf9b")
+	)
+	(sheet
+		(at 53.34 22.86)
+		(size 24.13 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c0adf10-7558-4c66-8a8d-f42e3254a4bc")
+		(property "Sheetname" "ESC1"
+			(at 53.34 21.5134 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/esc_1.kicad_sch"
+			(at 53.34 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
+					(page "4")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 20.32 154.94)
@@ -57,6 +105,7 @@
 			(at 20.32 152.9584 0)
 			(effects
 				(font
+					(face "Agency FB")
 					(size 3.81 3.81)
 					(thickness 0.762)
 					(bold yes)
@@ -64,7 +113,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power.kicad_sch"
+		(property "Sheetfile" "schematics/power.kicad_sch"
 			(at 20.32 191.0846 0)
 			(effects
 				(font
@@ -78,6 +127,52 @@
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 22.86)
+		(size 24.13 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "91ef4a31-1dcb-46c6-9edf-7447de09e4c1")
+		(property "Sheetname" "MCU1"
+			(at 20.32 21.5134 0)
+			(effects
+				(font
+					(face "Agency FB")
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/mcu_1.kicad_sch"
+			(at 20.32 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7"
+					(page "3")
 				)
 			)
 		)
