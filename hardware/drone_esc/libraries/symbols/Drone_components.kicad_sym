@@ -222,7 +222,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 7.112 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -527,6 +527,8 @@
 					)
 				)
 			)
+		)
+		(symbol "BSC016N04LS_1_0"
 			(pin passive line
 				(at 0 5.08 270)
 				(length 2.54)
