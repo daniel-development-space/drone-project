@@ -1629,6 +1629,85 @@
 		(uuid "f3bd4a88-a7ef-4b73-8a45-e805e1fecbb2")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 252.73 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0415f227-6464-4007-be44-1452625c6a57")
+		(property "Reference" "C2"
+			(at 256.54 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF 25V X5R MLCC"
+			(at 256.54 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 253.6952 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 252.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C12891"
+			(at 252.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ab76b9c-c41d-40db-929c-87d58be16ea6")
+		)
+		(pin "1"
+			(uuid "148ef535-7d8c-4f48-8d29-643733c4939c")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/2b3d35f8-ad3a-479e-afa3-88f04276a871"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 105.41 127 0)
 		(unit 1)
@@ -1828,6 +1907,85 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 205.74 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3950ed34-b528-4c2a-bb05-83cbd43facfe")
+		(property "Reference" "C1"
+			(at 209.55 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF 25V X5R MLCC"
+			(at 209.55 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 206.7052 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C12891"
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6b77ad3-4e7a-42e3-b7f8-cfffb5a3a4a0")
+		)
+		(pin "1"
+			(uuid "a5479c2d-2925-4a11-a8db-5ec2a22f28fc")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/2b3d35f8-ad3a-479e-afa3-88f04276a871"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 134.62 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1966,85 +2124,6 @@
 			(project ""
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/2b3d35f8-ad3a-479e-afa3-88f04276a871"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 205.74 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "568fb75c-4f8a-42cd-8989-564b88118d1a")
-		(property "Reference" "C1"
-			(at 209.55 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF 25V X7R MLCC"
-			(at 209.55 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 206.7052 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL32B226KAJNNNE_C309062.pdf"
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C309062"
-			(at 205.74 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91a30a0b-f2c2-495e-96e9-a140ca51298d")
-		)
-		(pin "2"
-			(uuid "890b3b4f-d1b6-41fd-8829-65cbbb6a60e0")
-		)
-		(instances
-			(project ""
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/2b3d35f8-ad3a-479e-afa3-88f04276a871"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2199,85 +2278,6 @@
 			(project ""
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/2b3d35f8-ad3a-479e-afa3-88f04276a871"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 252.73 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fa38ec0-c3ea-4c6c-a39b-1b9ee4069caa")
-		(property "Reference" "C2"
-			(at 256.54 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF 25V X7R MLCC"
-			(at 256.54 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 253.6952 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 252.73 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C309062"
-			(at 252.73 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6edea2a2-7549-4236-9189-b26c763a1b8a")
-		)
-		(pin "2"
-			(uuid "bd067318-59b5-4f96-a511-1e8c617f895a")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/2b3d35f8-ad3a-479e-afa3-88f04276a871"
-					(reference "C2")
 					(unit 1)
 				)
 			)
