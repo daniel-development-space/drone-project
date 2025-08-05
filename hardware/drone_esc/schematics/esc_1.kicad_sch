@@ -3857,16 +3857,16 @@
 	)
 	(symbol
 		(lib_id "Drone_components:BSC016N04LS")
-		(at 80.01 148.59 0)
+		(at 80.01 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0f42e4cf-66f7-4750-8615-4bef3c6c7f0a")
-		(property "Reference" "Q5"
-			(at 82.55 147.2164 0)
+		(uuid "0d5a98ec-6d45-4e47-b0c9-086bcf1bc5a5")
+		(property "Reference" "Q4"
+			(at 82.55 112.9264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +3875,7 @@
 			)
 		)
 		(property "Value" "BSC016N04LS"
-			(at 82.55 149.7564 0)
+			(at 82.55 115.4664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3884,7 @@
 			)
 		)
 		(property "Footprint" "Drone_components:BSC016N04LS"
-			(at 79.248 134.62 0)
+			(at 79.248 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,8 +3893,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 80.01 148.59 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C534294.pdf"
+			(at 80.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3903,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 148.59 0)
+			(at 80.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3912,7 @@
 			)
 		)
 		(property "MF" "Infineon"
-			(at 80.01 123.698 0)
+			(at 80.01 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +3922,7 @@
 			)
 		)
 		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
-			(at 80.01 137.16 0)
+			(at 80.01 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,7 +3932,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 80.01 133.096 0)
+			(at 80.01 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3942,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 80.01 148.59 0)
+			(at 80.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +3952,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
-			(at 80.264 131.572 0)
+			(at 80.264 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,7 +3962,7 @@
 			)
 		)
 		(property "MP" "BSC016N04LS"
-			(at 79.502 126.238 0)
+			(at 79.502 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +3972,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 80.01 121.666 0)
+			(at 80.01 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +3982,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
-			(at 79.248 128.778 0)
+			(at 79.248 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,19 +3991,28 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB part" "C534294"
+			(at 80.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1-3"
-			(uuid "aae86fda-5c24-4d10-a7bd-83f2b1fd2914")
+			(uuid "50697322-d860-4240-940c-1013dff14961")
 		)
 		(pin "4"
-			(uuid "45b96713-4f63-404c-b8f0-0b0ef101d99b")
+			(uuid "3793efb1-f2f3-411e-b63c-e348d6c63b14")
 		)
 		(pin "5-8"
-			(uuid "16771e3d-f646-4b38-8ac8-ff84ca99c0a3")
+			(uuid "6a06a45f-4b64-4200-8743-58dd7f6ebf16")
 		)
 		(instances
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "Q5")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4070,6 +4079,95 @@
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_components:BAT165")
+		(at 264.16 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b43cc09-a469-4b2e-aeb7-25b9c2372fd7")
+		(property "Reference" "D3"
+			(at 264.414 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT165"
+			(at 264.668 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Drone_components:BAT165"
+			(at 257.048 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C151511.pdf"
+			(at 264.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Fairchild Semiconductor"
+			(at 254 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C151511"
+			(at 264.16 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13dc8cea-c18b-4ef1-93c7-8e906d7196d0")
+		)
+		(pin "2"
+			(uuid "dfe27f4b-ecb7-43d9-a860-9b444e59a4ee")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4287,160 +4385,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Drone_components:BSC016N04LS")
-		(at 80.01 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "307f44db-ecc2-4144-80e5-c166c47803ff")
-		(property "Reference" "Q2"
-			(at 82.55 59.5864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC016N04LS"
-			(at 82.55 62.1264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Drone_components:BSC016N04LS"
-			(at 79.248 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon"
-			(at 80.01 36.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
-			(at 80.01 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 80.01 45.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 80.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
-			(at 80.264 43.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BSC016N04LS"
-			(at 79.502 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 80.01 34.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
-			(at 79.248 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1-3"
-			(uuid "ffa94003-756b-4409-852a-5cf46a4420cc")
-		)
-		(pin "4"
-			(uuid "93855c30-3733-4bda-beb2-a8916a228efe")
-		)
-		(pin "5-8"
-			(uuid "00e513b5-e8f8-447d-b83b-92de751b283b")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 66.04 43.18 90)
 		(unit 1)
@@ -4517,86 +4461,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Drone_components:BAT165")
-		(at 251.46 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43e5edc5-b067-4e20-ada1-e5e32915b5c2")
-		(property "Reference" "D2"
-			(at 251.968 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BAT165"
-			(at 252.222 99.314 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Drone_components:BAT165"
-			(at 244.348 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Fairchild Semiconductor"
-			(at 241.3 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49b79648-690f-452d-8f66-d52c5b60d109")
-		)
-		(pin "2"
-			(uuid "7f8c7c31-7f03-4c2a-88c9-356091b21aa0")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 106.68 120.65 180)
 		(unit 1)
@@ -4667,160 +4531,6 @@
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Drone_components:BSC016N04LS")
-		(at 80.01 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51805b74-f501-4936-a148-4e0a59e88eab")
-		(property "Reference" "Q4"
-			(at 82.55 112.9264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC016N04LS"
-			(at 82.55 115.4664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Drone_components:BSC016N04LS"
-			(at 79.248 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon"
-			(at 80.01 89.408 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
-			(at 80.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 80.01 98.806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 80.01 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
-			(at 80.264 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BSC016N04LS"
-			(at 79.502 91.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 80.01 87.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
-			(at 79.248 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1-3"
-			(uuid "2a9e2cb5-70f7-48cd-9dfb-6b33adfd6a2e")
-		)
-		(pin "4"
-			(uuid "bf51e06f-5d33-49cd-95d6-506869e0bbd3")
-		)
-		(pin "5-8"
-			(uuid "6aa77224-f47b-45df-9a1f-c38dfc2e7f68")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -5659,6 +5369,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB part" "C328453"
+			(at 208.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "fa193642-6e2d-499e-a14f-33e3a8c1d13b")
 		)
@@ -5726,6 +5445,169 @@
 			(project ""
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_components:BSC016N04LS")
+		(at 80.01 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92acef03-867e-417b-aec6-bb2175589702")
+		(property "Reference" "Q3"
+			(at 82.55 92.6064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC016N04LS"
+			(at 82.55 95.1464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Drone_components:BSC016N04LS"
+			(at 79.248 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C534294.pdf"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Infineon"
+			(at 80.01 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
+			(at 80.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 80.01 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
+			(at 80.264 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BSC016N04LS"
+			(at 79.502 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 80.01 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
+			(at 79.248 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C534294"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1-3"
+			(uuid "6f502378-6ed2-48c6-b0ed-8401b6420fbc")
+		)
+		(pin "4"
+			(uuid "216e454b-5f09-4094-b607-040051682876")
+		)
+		(pin "5-8"
+			(uuid "cb0612a8-9da7-46b9-a648-d9c73b297459")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -5930,86 +5812,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Drone_components:BAT165")
-		(at 264.16 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a180618c-6c05-4adc-be59-af7419b44fb9")
-		(property "Reference" "D3"
-			(at 264.668 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BAT165"
-			(at 264.922 99.314 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Drone_components:BAT165"
-			(at 257.048 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Fairchild Semiconductor"
-			(at 254 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9128fbcf-0697-42e9-a7de-25a9de7f397a")
-		)
-		(pin "2"
-			(uuid "53e068b9-717c-4775-ac11-d1748037b304")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 80.01 134.62 0)
 		(unit 1)
@@ -6070,160 +5872,6 @@
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Drone_components:BSC016N04LS")
-		(at 80.01 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a560f6bf-f5f9-4423-a9bc-13fe5b2f9305")
-		(property "Reference" "Q3"
-			(at 82.55 92.6064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC016N04LS"
-			(at 82.55 95.1464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Drone_components:BSC016N04LS"
-			(at 79.248 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon"
-			(at 80.01 69.088 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
-			(at 80.01 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 80.01 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 80.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
-			(at 80.264 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BSC016N04LS"
-			(at 79.502 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 80.01 67.056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
-			(at 79.248 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1-3"
-			(uuid "1281701b-17cb-49ec-9f3f-ac7968e5abb8")
-		)
-		(pin "4"
-			(uuid "db64536e-f3d4-47c4-826c-adaca1be9681")
-		)
-		(pin "5-8"
-			(uuid "7e103b00-8fd3-45fe-bd81-378320ee9a78")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6490,7 +6138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C534294.pdf"
 			(at 80.01 40.64 0)
 			(effects
 				(font
@@ -6585,6 +6233,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C534294"
+			(at 80.01 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6755,160 +6412,6 @@
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Drone_components:BSC016N04LS")
-		(at 80.01 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6c38ec9-714c-4e78-a022-0861fd9c7653")
-		(property "Reference" "Q6"
-			(at 82.55 167.5364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC016N04LS"
-			(at 82.55 170.0764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Drone_components:BSC016N04LS"
-			(at 79.248 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon"
-			(at 80.01 144.018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
-			(at 80.01 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 80.01 153.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 80.01 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
-			(at 80.264 151.892 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BSC016N04LS"
-			(at 79.502 146.558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 80.01 141.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
-			(at 79.248 149.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1-3"
-			(uuid "6e0d91a4-145d-4e9a-9a90-ee2807b5ae3f")
-		)
-		(pin "4"
-			(uuid "43f834d9-057b-4ec4-80a3-2df16e4eb0a8")
-		)
-		(pin "5-8"
-			(uuid "1ec38a4c-4648-4b6f-aa11-701971a220a3")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -7214,6 +6717,332 @@
 		)
 	)
 	(symbol
+		(lib_id "Drone_components:BSC016N04LS")
+		(at 80.01 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1c81f9a-eccc-4e2f-9761-1b2f33e00c86")
+		(property "Reference" "Q2"
+			(at 82.55 59.5864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC016N04LS"
+			(at 82.55 62.1264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Drone_components:BSC016N04LS"
+			(at 79.248 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C534294.pdf"
+			(at 80.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Infineon"
+			(at 80.01 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
+			(at 80.01 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 80.01 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 80.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
+			(at 80.264 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BSC016N04LS"
+			(at 79.502 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 80.01 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
+			(at 79.248 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C534294"
+			(at 80.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1-3"
+			(uuid "8f771f3b-b32a-40f6-a62c-bca582a67008")
+		)
+		(pin "4"
+			(uuid "0c16794b-4739-4270-8786-4fa29db89dd7")
+		)
+		(pin "5-8"
+			(uuid "85845791-c2b7-4863-aa73-755364f5bd03")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_components:BSC016N04LS")
+		(at 80.01 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6b01c48-ec3e-464a-91a3-588e76f02cae")
+		(property "Reference" "Q6"
+			(at 82.55 167.5364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC016N04LS"
+			(at 82.55 170.0764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Drone_components:BSC016N04LS"
+			(at 79.248 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C534294.pdf"
+			(at 80.01 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Infineon"
+			(at 80.01 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
+			(at 80.01 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 80.01 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 80.01 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
+			(at 80.264 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BSC016N04LS"
+			(at 79.502 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 80.01 141.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
+			(at 79.248 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C534294"
+			(at 80.01 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1-3"
+			(uuid "119843ce-6b28-4906-a483-6787b828aff8")
+		)
+		(pin "4"
+			(uuid "d48e2a7b-8e93-49d0-acd8-f3d93dc74f69")
+		)
+		(pin "5-8"
+			(uuid "e85b9d5e-e41f-4828-83b7-d93a9d6d6be9")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Drone_components:BAT165")
 		(at 238.76 96.52 90)
 		(unit 1)
@@ -7250,7 +7079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C151511.pdf"
 			(at 238.76 96.52 0)
 			(effects
 				(font
@@ -7275,6 +7104,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C151511"
+			(at 238.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7354,6 +7192,258 @@
 			(project ""
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_components:BAT165")
+		(at 251.46 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe31a427-a361-4682-8910-79f5080d45e3")
+		(property "Reference" "D2"
+			(at 251.714 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT165"
+			(at 251.968 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Drone_components:BAT165"
+			(at 244.348 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C151511.pdf"
+			(at 251.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Fairchild Semiconductor"
+			(at 241.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C151511"
+			(at 251.46 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "245f59be-da90-4356-863c-071c5a03d013")
+		)
+		(pin "2"
+			(uuid "83583a49-d2db-4b86-b9f4-09653147d666")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_components:BSC016N04LS")
+		(at 80.01 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe75c897-506a-4cf8-b53d-49bd230d407b")
+		(property "Reference" "Q5"
+			(at 82.55 147.2164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC016N04LS"
+			(at 82.55 149.7564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Drone_components:BSC016N04LS"
+			(at 79.248 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C534294.pdf"
+			(at 80.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Infineon"
+			(at 80.01 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
+			(at 80.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 80.01 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 80.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
+			(at 80.264 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BSC016N04LS"
+			(at 79.502 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 80.01 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
+			(at 79.248 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C534294"
+			(at 80.01 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1-3"
+			(uuid "666a38c1-64db-4472-9442-b0be6079b7a6")
+		)
+		(pin "4"
+			(uuid "935153e0-9ab6-4c24-8758-e3c082fe3325")
+		)
+		(pin "5-8"
+			(uuid "632bdf29-adbe-4127-879a-90fba05221b4")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
