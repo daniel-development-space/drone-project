@@ -2551,7 +2551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.63 129.8448 0)
 			(effects
 				(font
@@ -2621,7 +2621,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 10V X7R MLCC"
+		(property "Value" "4.7uF 10V X5R MLCC"
 			(at 64.77 115.5699 0)
 			(effects
 				(font
@@ -2630,7 +2630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 61.9252 118.11 0)
 			(effects
 				(font
@@ -2657,7 +2657,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB part" "C108342"
+		(property "JLCPCB part" "C23733"
 			(at 60.96 114.3 0)
 			(effects
 				(font

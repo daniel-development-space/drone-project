@@ -2671,7 +2671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.63 129.8448 0)
 			(effects
 				(font
@@ -2952,7 +2952,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "abb858ac-8390-4772-8b1a-55a8fba1bf5c")
+		(uuid "c41cdaf7-0cf3-4569-8e5e-38cf64dc2558")
 		(property "Reference" "C18"
 			(at 64.77 113.0299 0)
 			(effects
@@ -2962,7 +2962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 10V X7R MLCC"
+		(property "Value" "4.7uF 10V X5R MLCC"
 			(at 64.77 115.5699 0)
 			(effects
 				(font
@@ -2971,7 +2971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 61.9252 118.11 0)
 			(effects
 				(font
@@ -2998,7 +2998,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB part" "C108342"
+		(property "JLCPCB part" "C23733"
 			(at 60.96 114.3 0)
 			(effects
 				(font
@@ -3008,10 +3008,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3bf14ae5-28ae-4662-8688-bab5d6f86a1a")
+			(uuid "694305d6-b47d-4434-9d2c-19cca9a830c2")
 		)
 		(pin "1"
-			(uuid "12583dd9-202c-4ea9-9bdd-95a8dc8489de")
+			(uuid "3a1e8649-c9db-4a65-820b-fa16a4b3865f")
 		)
 		(instances
 			(project "drone_esc"

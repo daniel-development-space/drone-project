@@ -625,42 +625,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 3.81 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -1285,16 +1249,34 @@
 		(uuid "8dda75f2-c734-46b2-b4b0-ae40b035b850")
 	)
 	(junction
+		(at 237.49 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e3ff9ab-4c72-4164-a2bc-1d4bbae180ab")
+	)
+	(junction
 		(at 252.73 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a53526c7-cc87-442c-a463-f88f8b2ae6d1")
 	)
 	(junction
+		(at 71.12 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9f3b167-6e3d-43bc-adef-617552c70064")
+	)
+	(junction
 		(at 105.41 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbb8307a-e6b4-4a36-afe7-2911f9c9c3c1")
+	)
+	(junction
+		(at 71.12 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cffb2e03-8b84-46d7-bec4-6e87f53f446e")
 	)
 	(junction
 		(at 237.49 146.05)
@@ -1310,7 +1292,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 127) (xy 71.12 144.78)
+			(xy 71.12 127) (xy 71.12 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1380,6 +1362,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 143.51) (xy 71.12 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338d4100-dea5-4748-a4e6-d4a567028d3b")
+	)
+	(wire
+		(pts
 			(xy 252.73 129.54) (xy 252.73 135.89)
 		)
 		(stroke
@@ -1410,6 +1402,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 151.13) (xy 240.03 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6b65a8-bd6d-4a37-b7b5-547137f96c2b")
+	)
+	(wire
+		(pts
 			(xy 237.49 143.51) (xy 237.49 146.05)
 		)
 		(stroke
@@ -1427,6 +1429,16 @@
 			(type default)
 		)
 		(uuid "60a16c82-91bb-432a-ade2-c21296fe9e17")
+	)
+	(wire
+		(pts
+			(xy 237.49 151.13) (xy 237.49 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "613086b2-8464-477b-afb8-57dbf21c9d8c")
 	)
 	(wire
 		(pts
@@ -1500,7 +1512,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 160.02) (xy 71.12 166.37)
+			(xy 71.12 160.02) (xy 71.12 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1522,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 146.05) (xy 237.49 148.59)
+			(xy 237.49 146.05) (xy 237.49 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1527,6 +1539,16 @@
 			(type default)
 		)
 		(uuid "9bda5f24-b414-4241-a3c8-5aeb973b86b5")
+	)
+	(wire
+		(pts
+			(xy 74.93 161.29) (xy 71.12 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7d5c0f-9bda-4061-a109-e7bba31d5ce6")
 	)
 	(wire
 		(pts
@@ -1570,6 +1592,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 149.86) (xy 74.93 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a01a3a-aa47-45c8-818c-b0c82d1a86c3")
+	)
+	(wire
+		(pts
 			(xy 205.74 125.73) (xy 205.74 135.89)
 		)
 		(stroke
@@ -1600,6 +1632,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 161.29) (xy 71.12 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95dc344-b354-4c94-a41b-e9f7aab3984b")
+	)
+	(wire
+		(pts
 			(xy 74.93 154.94) (xy 100.33 154.94)
 		)
 		(stroke
@@ -1607,6 +1649,16 @@
 			(type default)
 		)
 		(uuid "deabc36e-89e5-41bf-a5b6-5df996e9f504")
+	)
+	(wire
+		(pts
+			(xy 74.93 154.94) (xy 74.93 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf671ec-602e-45e2-8333-3c40ee6ad68c")
 	)
 	(wire
 		(pts
@@ -1627,6 +1679,16 @@
 			(type default)
 		)
 		(uuid "f3bd4a88-a7ef-4b73-8a45-e805e1fecbb2")
+	)
+	(wire
+		(pts
+			(xy 74.93 143.51) (xy 71.12 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6da2b17-c6d5-48f3-ab0a-f4eaf9396fe9")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2048,6 +2110,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "Basic"
+			(at 134.62 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34f04b73-e885-46ad-ab11-b63275356196")
 		)
@@ -2209,34 +2280,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Drone_components:YLR25-4-0.25F-W")
-		(at 71.12 152.4 0)
+		(lib_id "Drone_components:Rectangle_test_point")
+		(at 243.84 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "87084f01-4c43-40a8-a7e3-d31ab9871806")
-		(property "Reference" "R15"
-			(at 68.58 151.1299 0)
+		(uuid "8c761d2d-08e5-4fdc-b724-8559cd5d183d")
+		(property "Reference" "TP11"
+			(at 242.57 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "YLR25-4-0.25F-W"
-			(at 68.58 153.6699 0)
+		(property "Value" "V"
+			(at 245.872 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Drone_components:YLR25-4-0.25F-W"
-			(at 71.12 134.874 0)
+		(property "Footprint" "Drone_components:Rectangle test point"
+			(at 244.348 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +2316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 152.4 0)
+			(at 243.84 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2325,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 152.4 0)
+			(at 243.84 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,21 +2334,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0dae27f5-ee6a-43de-905b-72f432565dc1")
-		)
-		(pin "2"
-			(uuid "26bd5b54-5118-49e2-8d18-d2a30232748f")
-		)
-		(pin "1"
-			(uuid "d8127462-0a3c-49c0-bd50-4a450dd77ed9")
-		)
-		(pin "2"
-			(uuid "a95177ea-dd92-41f5-ac5c-387da2c2b3dc")
+			(uuid "ba8593d5-8ff5-4904-addd-c9d31311fd2a")
 		)
 		(instances
-			(project ""
+			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/2b3d35f8-ad3a-479e-afa3-88f04276a871"
-					(reference "R15")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -2344,6 +2406,76 @@
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/2b3d35f8-ad3a-479e-afa3-88f04276a871"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_components:YLR25-4-0.25F-W")
+		(at 71.12 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "910ca642-348d-4b4e-9b51-00960a7b8a80")
+		(property "Reference" "R15"
+			(at 73.66 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 73.66 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Drone_components:YLR25-4-0.25F-W"
+			(at 71.12 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24d799a0-158d-4729-b302-b254d20dfc63")
+		)
+		(pin "1"
+			(uuid "ee80a68b-9c8d-4b97-a06b-41e9ae54d378")
+		)
+		(instances
+			(project ""
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/2b3d35f8-ad3a-479e-afa3-88f04276a871"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2417,7 +2549,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 148.59 0)
+		(at 237.49 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2426,7 +2558,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac331dbd-d0e9-48c1-84dc-f62e97a32029")
 		(property "Reference" "#PWR03"
-			(at 237.49 154.94 0)
+			(at 237.49 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2567,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 153.67 0)
+			(at 237.49 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 148.59 0)
+			(at 237.49 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 148.59 0)
+			(at 237.49 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +2593,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 148.59 0)
+			(at 237.49 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,6 +2666,15 @@
 			)
 		)
 		(property "JLCPCB part" "C11702"
+			(at 124.46 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Basic"
 			(at 124.46 152.4 90)
 			(effects
 				(font
@@ -2764,6 +2905,15 @@
 			)
 		)
 		(property "JLCPCB part" "C307331"
+			(at 80.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Basic"
 			(at 80.01 134.62 0)
 			(effects
 				(font
