@@ -268,7 +268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Drone_components:BSC016N04LS"
+		(symbol "Drone_components:BSC009NE2LS5IATMA1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -276,7 +276,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 2.54 0 0)
+				(at -8.4364 10.4402 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -284,8 +284,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "BSC016N04LS"
-				(at 2.54 -2.54 0)
+			(property "Value" "BSC009NE2LS5IATMA1"
+				(at -8.1775 -13.4343 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -293,8 +293,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Drone_components:BSC016N04LS"
-				(at -0.762 13.97 0)
+			(property "Footprint" "Drone_components:BSC093N04LSGATMA1"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -312,46 +312,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Infineon"
-				(at 0 24.892 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
+			(property "Description" "MOSFET N-CH 25V 40A 8TDSON IND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -361,8 +322,8 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
-				(at 0.254 17.018 0)
+			(property "MF" "Infineon Technologies"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -371,8 +332,8 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "BSC016N04LS"
-				(at -0.508 22.352 0)
+			(property "PACKAGE" "PowerTDFN-8 Infineon"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -381,8 +342,8 @@
 					(hide yes)
 				)
 			)
-			(property "Availability" "In Stock"
-				(at 0 26.924 0)
+			(property "PRICE" "1.32 USD"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -391,8 +352,8 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
-				(at -0.762 19.812 0)
+			(property "MP" "BSC009NE2LS5IATMA1"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -401,58 +362,23 @@
 					(hide yes)
 				)
 			)
-			(symbol "BSC016N04LS_0_0"
+			(property "AVAILABILITY" "Good"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "BSC009NE2LS5IATMA1_0_0"
 				(polyline
 					(pts
-						(xy -2.54 -2.54) (xy -2.54 2.54)
+						(xy -2.54 3.81) (xy -2.54 -3.81)
 					)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.032 1.397)
-					(end -1.524 2.921)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 -0.762)
-					(end -1.524 0.762)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 -2.921)
-					(end -1.524 -1.397)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5875 2.2225) (xy 0 2.2225)
-					)
-					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -461,10 +387,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.5875 -2.2225) (xy 0 -2.2225)
+						(xy -0.635 5.08) (xy -0.635 3.81)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -473,22 +399,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0) (xy -0.508 0.635) (xy -0.508 -0.635) (xy -1.524 0)
+						(xy -0.635 3.81) (xy -0.635 2.54)
 					)
 					(stroke
-						(width 0.1016)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -497,10 +411,94 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 2.2225)
+						(xy -0.635 3.81) (xy 2.54 3.81)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy -0.635 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -2.54) (xy -0.635 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -508,10 +506,10 @@
 					)
 				)
 				(circle
-					(center 0 2.2225)
-					(radius 0.127)
+					(center 1.27 0)
+					(radius 6.35)
 					(stroke
-						(width 0.4064)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -520,10 +518,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.2225) (xy 1.27 2.2225)
+						(xy 2.54 3.81) (xy 2.54 5.08)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -532,10 +530,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -2.2225)
+						(xy 2.54 3.81) (xy 5.08 3.81)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -544,44 +542,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.2225) (xy 0 -2.54)
+						(xy 2.54 0) (xy 2.54 -5.08)
 					)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.2225)
-					(radius 0.127)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.762 0.3175)
-					(end 1.778 0.5715)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.2225) (xy 1.27 -2.2225)
-					)
-					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -590,22 +554,274 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0.3175) (xy 0.762 -0.4445) (xy 1.778 -0.4445) (xy 1.27 0.3175)
+						(xy 4.445 0) (xy 5.08 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.2225) (xy 0 -2.2225)
+						(xy 4.445 -1.27) (xy 5.08 -1.27)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.628 -1.078) (xy 4.785 -0.921)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.785 -0.921) (xy 4.881 -0.921)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.866 -1.078) (xy 4.628 -1.078)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.894 -1.106) (xy 4.866 -1.078)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.908 -0.553) (xy 4.908 -1.092)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.908 -1.092) (xy 4.894 -1.106)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.976 -0.621) (xy 4.908 -0.553)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 4.445 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.715 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 5.08 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.086 -0.328) (xy 5.086 -1.12)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.086 -1.12) (xy 5.099 -1.133)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.099 -1.133) (xy 5.502 -1.133)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.215 -0.628) (xy 5.222 -0.621)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.215 -0.819) (xy 5.215 -0.628)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.222 -0.621) (xy 4.976 -0.621)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.502 -1.106) (xy 5.215 -0.819)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.502 -1.133) (xy 5.502 -1.106)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -1.27) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -613,35 +829,35 @@
 					)
 				)
 				(text "G"
-					(at -3.81 -1.905 0)
+					(at -7.8948 0.5093 0)
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.7827 1.7827)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "D"
-					(at 0.635 2.8575 0)
+					(at 3.3087 7.1265 0)
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.7816 1.7816)
 						)
 						(justify left bottom)
 					)
 				)
-				(text "S"
-					(at 0.635 -3.81 0)
+				(text "s"
+					(at 3.559 -8.1349 0)
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.7795 1.7795)
 						)
 						(justify left bottom)
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
+					(at -7.62 0 0)
+					(length 5.08)
 					(name "~"
 						(effects
 							(font
@@ -658,7 +874,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at 2.54 7.62 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -667,7 +883,7 @@
 							)
 						)
 					)
-					(number "5-8"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -676,7 +892,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 2.54 -7.62 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -685,7 +901,43 @@
 							)
 						)
 					)
-					(number "1-3"
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1733,10 +1985,10 @@
 		(uuid "22f93512-01a9-43bf-83d9-517dc416a05c")
 	)
 	(junction
-		(at 80.01 72.39)
+		(at 80.01 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3e5b01de-6773-4906-b5ab-9dc76ddc3aa5")
+		(uuid "244596ba-791b-4352-9015-cdba833c35eb")
 	)
 	(junction
 		(at 264.16 140.97)
@@ -1823,12 +2075,6 @@
 		(uuid "8ca06a9d-75a8-4be6-9dc3-14dd843d0272")
 	)
 	(junction
-		(at 80.01 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f2f03c7-87c1-461f-a298-7f2cadf60c32")
-	)
-	(junction
 		(at 106.68 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1845,6 +2091,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bc5fdc8-abc5-4f73-bea8-e90618aa303d")
+	)
+	(junction
+		(at 80.01 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ee1787f-1aa7-403b-aab0-2c56a77b35c5")
 	)
 	(junction
 		(at 238.76 88.9)
@@ -1874,7 +2126,7 @@
 		(at 80.01 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db9a17c4-0ac7-49a9-9793-02314d008d1f")
+		(uuid "da8e35d2-b9da-49e6-96fe-723f47dc4bbb")
 	)
 	(junction
 		(at 120.65 62.23)
@@ -1914,7 +2166,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 72.39) (xy 80.01 72.39)
+			(xy 73.66 72.39) (xy 80.01 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2014,16 +2266,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 171.45) (xy 74.93 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1162fcdd-075c-491a-b34b-a7d915b3cd55")
-	)
-	(wire
-		(pts
 			(xy 278.13 88.9) (xy 278.13 143.51)
 		)
 		(stroke
@@ -2084,6 +2326,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 124.46) (xy 80.01 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a480ea8-0874-443d-83ae-333fbfd05fb2")
+	)
+	(wire
+		(pts
 			(xy 231.14 88.9) (xy 238.76 88.9)
 		)
 		(stroke
@@ -2091,26 +2343,6 @@
 			(type default)
 		)
 		(uuid "1d6d79ef-6722-4770-b3a2-09878eaa9fda")
-	)
-	(wire
-		(pts
-			(xy 69.85 116.84) (xy 74.93 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22473068-5b4e-44d0-821d-e9b6197e1ff3")
-	)
-	(wire
-		(pts
-			(xy 73.66 72.39) (xy 80.01 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "230d8308-55db-491e-afc0-ccd19b3bf785")
 	)
 	(wire
 		(pts
@@ -2154,13 +2386,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 125.73) (xy 80.01 119.38)
+			(xy 80.01 72.39) (xy 106.68 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3004fecd-c360-45e0-abbf-e7532aea5c77")
+		(uuid "2bda947a-ed11-4f63-b80d-6f8fd1892d21")
+	)
+	(wire
+		(pts
+			(xy 80.01 158.75) (xy 80.01 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2dbee2-d95e-43d0-ad4f-5e9d92d17ed0")
 	)
 	(wire
 		(pts
@@ -2214,6 +2456,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 116.84) (xy 69.85 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3beaed5e-1c3d-4896-9693-e5b5ba9f3306")
+	)
+	(wire
+		(pts
 			(xy 80.01 134.62) (xy 80.01 137.16)
 		)
 		(stroke
@@ -2254,6 +2506,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 50.8) (xy 80.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa60b0f-86df-47d0-909f-44d5d86c2f7d")
+	)
+	(wire
+		(pts
 			(xy 80.01 160.02) (xy 80.01 163.83)
 		)
 		(stroke
@@ -2291,16 +2553,6 @@
 			(type default)
 		)
 		(uuid "46b4adc7-808d-4793-a02e-6e4b46081c7d")
-	)
-	(wire
-		(pts
-			(xy 80.01 180.34) (xy 80.01 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46f1bac0-a08b-4afc-a4b8-d2b51316b4db")
 	)
 	(wire
 		(pts
@@ -2354,7 +2606,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 96.52) (xy 74.93 96.52)
+			(xy 66.04 96.52) (xy 69.85 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2381,16 +2633,6 @@
 			(type default)
 		)
 		(uuid "5a7efdb6-a21d-47d0-bb9b-5c1c5b85f39a")
-	)
-	(wire
-		(pts
-			(xy 80.01 105.41) (xy 80.01 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f0ed3eb-8d39-4063-bed5-4b0f772694ba")
 	)
 	(wire
 		(pts
@@ -2424,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 63.5) (xy 74.93 63.5)
+			(xy 66.04 63.5) (xy 69.85 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2434,23 +2676,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 151.13) (xy 62.23 151.13)
+			(xy 50.8 151.13) (xy 58.42 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "675a55e0-5c23-4b4b-b5a0-a003b7b90999")
-	)
-	(wire
-		(pts
-			(xy 73.66 125.73) (xy 80.01 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "685c237e-b57d-4d67-bc26-ad3d37f24f8d")
 	)
 	(wire
 		(pts
@@ -2524,6 +2756,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 171.45) (xy 69.85 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82feb282-ff16-4b10-ad20-1ee4b76f736c")
+	)
+	(wire
+		(pts
 			(xy 120.65 124.46) (xy 120.65 125.73)
 		)
 		(stroke
@@ -2564,7 +2806,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 171.45) (xy 62.23 171.45)
+			(xy 50.8 171.45) (xy 58.42 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2581,6 +2823,16 @@
 			(type default)
 		)
 		(uuid "8f3084a0-7257-466c-81b2-7d0dc86d5b31")
+	)
+	(wire
+		(pts
+			(xy 80.01 180.34) (xy 106.68 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe03018-0b08-49a2-bf02-588b0ce17dcd")
 	)
 	(wire
 		(pts
@@ -2624,6 +2876,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 151.13) (xy 69.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96dc3154-df9a-4850-9dcc-670261f4a114")
+	)
+	(wire
+		(pts
 			(xy 106.68 170.18) (xy 120.65 170.18)
 		)
 		(stroke
@@ -2634,7 +2896,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 63.5) (xy 62.23 63.5)
+			(xy 50.8 63.5) (xy 58.42 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2674,6 +2936,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 71.12) (xy 80.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e908d25-42cf-4ac6-9b9d-af99574bf955")
+	)
+	(wire
+		(pts
 			(xy 189.23 128.27) (xy 193.04 128.27)
 		)
 		(stroke
@@ -2684,6 +2956,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 125.73) (xy 106.68 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1221aa-1c1a-46a7-a359-dc1c699bd4bb")
+	)
+	(wire
+		(pts
 			(xy 73.66 128.27) (xy 73.66 125.73)
 		)
 		(stroke
@@ -2691,16 +2973,6 @@
 			(type default)
 		)
 		(uuid "a157e59e-1122-42c1-b509-2f7e70e7c619")
-	)
-	(wire
-		(pts
-			(xy 69.85 151.13) (xy 74.93 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a16be052-152c-46c7-b36f-5d97ddd2ce81")
 	)
 	(wire
 		(pts
@@ -2734,13 +3006,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 125.73) (xy 80.01 125.73)
+			(xy 73.66 125.73) (xy 80.01 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ae2a6377-9132-41d1-9583-bf932bd9ff70")
+	)
+	(wire
+		(pts
+			(xy 80.01 179.07) (xy 80.01 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d9b0e6-4e0f-4792-aa16-5e0dec57224b")
 	)
 	(wire
 		(pts
@@ -2771,16 +3053,6 @@
 			(type default)
 		)
 		(uuid "b5cd0be6-64b3-4898-88b0-328a2cc5b8be")
-	)
-	(wire
-		(pts
-			(xy 80.01 52.07) (xy 80.01 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b74db9ba-fe40-42e1-b88b-62dd4abd8941")
 	)
 	(wire
 		(pts
@@ -2834,7 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 43.18) (xy 62.23 43.18)
+			(xy 50.8 43.18) (xy 57.15 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2884,7 +3156,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 96.52) (xy 62.23 96.52)
+			(xy 50.8 96.52) (xy 58.42 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2901,16 +3173,6 @@
 			(type default)
 		)
 		(uuid "cb6f0c1e-820b-4f80-a8ca-643a99f38f1c")
-	)
-	(wire
-		(pts
-			(xy 80.01 72.39) (xy 80.01 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccb8c9f9-973a-4ff8-897b-48fbd8e06d3e")
 	)
 	(wire
 		(pts
@@ -2994,7 +3256,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 43.18) (xy 74.93 43.18)
+			(xy 64.77 43.18) (xy 69.85 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3024,16 +3286,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 180.34) (xy 80.01 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de82611a-f291-4138-8e94-d32af975229d")
-	)
-	(wire
-		(pts
 			(xy 223.52 135.89) (xy 238.76 135.89)
 		)
 		(stroke
@@ -3044,7 +3296,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 116.84) (xy 62.23 116.84)
+			(xy 50.8 116.84) (xy 58.42 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3061,6 +3313,16 @@
 			(type default)
 		)
 		(uuid "e4ff8d50-1508-41b7-922a-3b301dcacce4")
+	)
+	(wire
+		(pts
+			(xy 80.01 104.14) (xy 80.01 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e872fcd8-f21e-4f3b-bd99-e8354ecd4036")
 	)
 	(wire
 		(pts
@@ -3101,16 +3363,6 @@
 			(type default)
 		)
 		(uuid "f8f68cc1-1aa1-4f98-9c90-bfabbb4ba166")
-	)
-	(wire
-		(pts
-			(xy 80.01 160.02) (xy 80.01 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fac2a8b3-2742-4314-8382-047c1f1c0e9b")
 	)
 	(wire
 		(pts
@@ -3699,6 +3951,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Drone_components:BSC009NE2LS5IATMA1")
+		(at 77.47 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15f02ab3-5ade-4a02-86cb-100bb1e77eeb")
+		(property "Reference" "Q1"
+			(at 86.36 41.3971 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC009NE2LS5IATMA1"
+			(at 86.36 43.9371 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Drone_components:BSC093N04LSGATMA1"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 25V 40A 8TDSON IND"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Infineon Technologies"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "PowerTDFN-8 Infineon"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "1.32 USD"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BSC009NE2LS5IATMA1"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C122543"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c233c00-1856-4fa3-b0dc-bba4b9b79c68")
+		)
+		(pin "4"
+			(uuid "8620b489-ea89-41cd-acec-008184a315fa")
+		)
+		(pin "5"
+			(uuid "642e6218-f156-4e15-92e9-71a7033aceec")
+		)
+		(pin "1"
+			(uuid "47caa8c9-6eee-4a97-afd3-e5442ba33968")
+		)
+		(pin "3"
+			(uuid "92ea7459-22c8-4ef3-af48-b0556fd0458f")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 73.66 128.27 0)
 		(unit 1)
@@ -3897,169 +4289,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Drone_components:BSC016N04LS")
-		(at 80.01 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "244cd51a-255d-4830-a484-85e57acbca86")
-		(property "Reference" "Q6"
-			(at 82.55 167.5364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC016N04LS"
-			(at 82.55 170.0764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Drone_components:BSC016N04LS"
-			(at 79.248 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C534294.pdf"
-			(at 80.01 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon"
-			(at 80.01 144.018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
-			(at 80.01 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 80.01 153.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 80.01 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
-			(at 80.264 151.892 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BSC016N04LS"
-			(at 79.502 146.558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 80.01 141.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
-			(at 79.248 149.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C534294"
-			(at 80.01 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1-3"
-			(uuid "2a9b834e-f797-4d9e-b68b-d01c95c8156f")
-		)
-		(pin "4"
-			(uuid "24f77a9d-88c2-47a0-b295-5d7f27d494fc")
-		)
-		(pin "5-8"
-			(uuid "8156ccd8-a48d-4809-9846-3805e5bbd203")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 120.65 175.26 0)
 		(unit 1)
@@ -4133,6 +4362,146 @@
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_components:BSC009NE2LS5IATMA1")
+		(at 77.47 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33a3fac7-23f4-444f-a5e0-e241967e7c98")
+		(property "Reference" "Q3"
+			(at 86.36 94.7371 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC009NE2LS5IATMA1"
+			(at 86.36 97.2771 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Drone_components:BSC093N04LSGATMA1"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 25V 40A 8TDSON IND"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Infineon Technologies"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "PowerTDFN-8 Infineon"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "1.32 USD"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BSC009NE2LS5IATMA1"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C122543"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea6c23b0-8b3e-4cbf-8c45-b52fe2a6ba51")
+		)
+		(pin "4"
+			(uuid "7b92ff42-2c78-4019-acef-57146e79bbb9")
+		)
+		(pin "5"
+			(uuid "11f42fac-0dfe-409d-90bd-c5200bdb2088")
+		)
+		(pin "1"
+			(uuid "4fc43dd1-af12-4553-9c83-bfda60838e67")
+		)
+		(pin "3"
+			(uuid "47825f3f-1dd5-4a8f-9d21-f2f5c2045e4a")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -4229,7 +4598,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 43.18 90)
+		(at 60.96 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4237,15 +4606,15 @@
 		(dnp no)
 		(uuid "37f23386-c9dc-4030-b96f-5e36e8182425")
 		(property "Reference" "R2"
-			(at 66.04 40.894 90)
+			(at 60.96 40.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33"
-			(at 66.04 45.72 90)
+		(property "Value" "10"
+			(at 60.96 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4622,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 44.958 90)
+			(at 60.96 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 43.18 0)
+			(at 60.96 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +4640,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 66.04 43.18 0)
+			(at 60.96 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,7 +4649,7 @@
 			)
 		)
 		(property "JLCPCB part" "C25105"
-			(at 66.04 43.18 90)
+			(at 60.96 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,6 +4756,85 @@
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "462bfbe8-907f-43c9-a735-0a7644b78589")
+		(property "Reference" "C16"
+			(at 109.22 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF 25V X5R MLCC"
+			(at 109.22 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 106.3752 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C45783"
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26f7f428-500c-416f-b1d8-ac5db7b1b959")
+		)
+		(pin "1"
+			(uuid "866b3a70-cb22-4445-b020-3e1b47ce9b8d")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4545,32 +4993,175 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 66.04 151.13 90)
+		(lib_id "Drone_components:BSC009NE2LS5IATMA1")
+		(at 77.47 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "668f44c2-6af4-4754-a5e7-5bdce266872a")
-		(property "Reference" "R10"
-			(at 66.04 148.844 90)
+		(fields_autoplaced yes)
+		(uuid "5e824207-46e8-403c-9a89-1f558b7b9364")
+		(property "Reference" "Q6"
+			(at 86.36 169.6671 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "33"
-			(at 66.04 153.67 90)
+		(property "Value" "BSC009NE2LS5IATMA1"
+			(at 86.36 172.2071 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 152.908 90)
+		(property "Footprint" "Drone_components:BSC093N04LSGATMA1"
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 25V 40A 8TDSON IND"
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Infineon Technologies"
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "PowerTDFN-8 Infineon"
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "1.32 USD"
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BSC009NE2LS5IATMA1"
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C122543"
+			(at 77.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48ee95bf-893e-4650-b91e-03ce90958130")
+		)
+		(pin "4"
+			(uuid "25c1d3e2-8e18-446f-be34-fbf32fb8c04c")
+		)
+		(pin "5"
+			(uuid "0a83aa43-d9af-4f33-8c6d-a7bebbd46640")
+		)
+		(pin "1"
+			(uuid "921a45a8-4e66-4c56-8245-a75428729927")
+		)
+		(pin "3"
+			(uuid "049d4e6f-c25d-4f53-a128-c941ec8b27be")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ef410ef-7434-4c6f-b6c7-831d4e5a84d7")
+		(property "Reference" "C14"
+			(at 109.22 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF 25V X5R MLCC"
+			(at 109.22 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 106.3752 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,7 +5170,83 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 151.13 0)
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C45783"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97b4ea75-7c1e-4d1c-99e0-1296da5a6f2b")
+		)
+		(pin "1"
+			(uuid "474cdc95-7fa8-4e81-87f4-110ccf7d94b0")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "668f44c2-6af4-4754-a5e7-5bdce266872a")
+		(property "Reference" "R10"
+			(at 62.23 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 62.23 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 62.23 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +5255,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 66.04 151.13 0)
+			(at 62.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +5264,7 @@
 			)
 		)
 		(property "JLCPCB part" "C25105"
-			(at 66.04 151.13 90)
+			(at 62.23 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,171 +5288,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Drone_components:BSC016N04LS")
-		(at 80.01 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68a67f22-5461-48db-b145-e63612d9da09")
-		(property "Reference" "Q1"
-			(at 82.55 39.2664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC016N04LS"
-			(at 82.55 41.8064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Drone_components:BSC016N04LS"
-			(at 79.248 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C534294.pdf"
-			(at 80.01 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon"
-			(at 80.01 15.748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
-			(at 80.01 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 80.01 25.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 80.01 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
-			(at 80.264 23.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BSC016N04LS"
-			(at 79.502 18.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 80.01 13.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
-			(at 79.248 20.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C534294"
-			(at 80.01 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1-3"
-			(uuid "1748a908-cbfa-464c-ae83-a97cceedc18a")
-		)
-		(pin "4"
-			(uuid "22b6e28b-08a3-477c-9192-92c3f5073ebe")
-		)
-		(pin "5-8"
-			(uuid "02025d51-9579-4c3e-93b7-9c4c8358ab9f")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 66.04 63.5 90)
+		(at 62.23 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4793,15 +5297,15 @@
 		(dnp no)
 		(uuid "68bc6db7-bcde-4df0-9933-5f77d42e6791")
 		(property "Reference" "R3"
-			(at 66.04 61.214 90)
+			(at 62.23 61.214 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33"
-			(at 66.04 66.04 90)
+		(property "Value" "10"
+			(at 62.23 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4809,7 +5313,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 65.278 90)
+			(at 62.23 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4818,7 +5322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 63.5 0)
+			(at 62.23 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,7 +5331,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 66.04 63.5 0)
+			(at 62.23 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +5340,7 @@
 			)
 		)
 		(property "JLCPCB part" "C25105"
-			(at 66.04 63.5 90)
+			(at 62.23 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +5444,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 96.52 90)
+		(at 62.23 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4948,15 +5452,15 @@
 		(dnp no)
 		(uuid "6ceefb0e-3479-47b4-810e-d8a75f56bce6")
 		(property "Reference" "R6"
-			(at 66.04 94.234 90)
+			(at 62.23 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33"
-			(at 66.04 99.06 90)
+		(property "Value" "10"
+			(at 62.23 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4964,7 +5468,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 98.298 90)
+			(at 62.23 98.298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,7 +5477,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 96.52 0)
+			(at 62.23 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +5486,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 66.04 96.52 0)
+			(at 62.23 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +5495,7 @@
 			)
 		)
 		(property "JLCPCB part" "C25105"
-			(at 66.04 96.52 90)
+			(at 62.23 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,17 +5595,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 105.41 88.9 0)
+		(lib_id "Drone_components:BSC009NE2LS5IATMA1")
+		(at 77.47 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "74b6eb51-b75f-4004-960d-3edca9d69f11")
-		(property "Reference" "C14"
-			(at 109.22 87.6299 0)
+		(uuid "78040f76-f6fd-4f93-9997-2f36c0981630")
+		(property "Reference" "Q4"
+			(at 86.36 115.0571 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,8 +5613,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF 25V X5R MLCC"
-			(at 109.22 90.1699 0)
+		(property "Value" "BSC009NE2LS5IATMA1"
+			(at 86.36 117.5971 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,8 +5622,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 106.3752 92.71 0)
+		(property "Footprint" "Drone_components:BSC093N04LSGATMA1"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,26 +5641,68 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 105.41 88.9 0)
+		(property "Description" "MOSFET N-CH 25V 40A 8TDSON IND"
+			(at 77.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 88.9 0)
+		(property "MF" "Infineon Technologies"
+			(at 77.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "JLCPCB part" "C12891"
-			(at 105.41 88.9 0)
+		(property "PACKAGE" "PowerTDFN-8 Infineon"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "1.32 USD"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BSC009NE2LS5IATMA1"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C122543"
+			(at 77.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,15 +5711,24 @@
 			)
 		)
 		(pin "2"
-			(uuid "bef494a7-ebdd-41fa-a68b-cfb7e6e54d96")
+			(uuid "3a81b7ee-2bcf-4019-b9df-f78d580bfb0a")
+		)
+		(pin "4"
+			(uuid "cd552cdc-351f-4a50-95eb-fe662d99c0ef")
+		)
+		(pin "5"
+			(uuid "7d1502f4-cb00-4d34-97eb-09c5ebf63e5c")
 		)
 		(pin "1"
-			(uuid "bc63c8f5-a4d9-4a1f-8687-8d80d76ea257")
+			(uuid "7eaaf43d-b418-4a85-bb93-80c98b246215")
+		)
+		(pin "3"
+			(uuid "a7362cde-71ae-4633-ac82-910ad470afe9")
 		)
 		(instances
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "C14")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -5236,171 +5801,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Drone_components:BSC016N04LS")
-		(at 80.01 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88edaf40-e266-4399-883e-a15e026ddf78")
-		(property "Reference" "Q5"
-			(at 82.55 147.2164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC016N04LS"
-			(at 82.55 149.7564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Drone_components:BSC016N04LS"
-			(at 79.248 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C534294.pdf"
-			(at 80.01 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon"
-			(at 80.01 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
-			(at 80.01 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 80.01 133.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 80.01 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
-			(at 80.264 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BSC016N04LS"
-			(at 79.502 126.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 80.01 121.666 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
-			(at 79.248 128.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C534294"
-			(at 80.01 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1-3"
-			(uuid "25bc26b9-ac34-47d6-808e-626f9bf0c56e")
-		)
-		(pin "4"
-			(uuid "b67bd505-106c-4d93-b423-bd51a79dc278")
-		)
-		(pin "5-8"
-			(uuid "6adc2be9-ef16-4e48-8f02-cecca19e9471")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 66.04 116.84 90)
+		(at 62.23 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5408,15 +5810,15 @@
 		(dnp no)
 		(uuid "90f9409f-f79d-4b38-876d-7b072169b7c8")
 		(property "Reference" "R7"
-			(at 66.04 114.554 90)
+			(at 62.23 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33"
-			(at 66.04 119.38 90)
+		(property "Value" "10"
+			(at 62.23 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5424,7 +5826,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 118.618 90)
+			(at 62.23 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5835,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 116.84 0)
+			(at 62.23 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5844,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 66.04 116.84 0)
+			(at 62.23 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5853,7 @@
 			)
 		)
 		(property "JLCPCB part" "C25105"
-			(at 66.04 116.84 90)
+			(at 62.23 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,85 +6111,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 105.41 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93764dc6-e2b3-436f-b9ed-7b7a22ecfc03")
-		(property "Reference" "C16"
-			(at 109.22 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF 25V X5R MLCC"
-			(at 109.22 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 106.3752 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C12891"
-			(at 105.41 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "90fae7a8-b32f-4117-839c-b5fdd4a80c40")
-		)
-		(pin "1"
-			(uuid "ffd118d9-e230-47e6-9c08-255eb9878141")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 73.66 182.88 0)
 		(unit 1)
@@ -5992,6 +6315,146 @@
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_components:BSC009NE2LS5IATMA1")
+		(at 77.47 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99d820ce-9de7-438c-873f-10aec0933e40")
+		(property "Reference" "Q5"
+			(at 86.36 149.3471 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC009NE2LS5IATMA1"
+			(at 86.36 151.8871 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Drone_components:BSC093N04LSGATMA1"
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 25V 40A 8TDSON IND"
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Infineon Technologies"
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "PowerTDFN-8 Infineon"
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "1.32 USD"
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BSC009NE2LS5IATMA1"
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C122543"
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd7e803d-10cc-46a5-a382-05ef3b34749b")
+		)
+		(pin "4"
+			(uuid "257d2009-7087-480d-94e7-85c5b061a7a1")
+		)
+		(pin "5"
+			(uuid "2ebcdcb0-f643-4f88-a3b8-c5a1f943ebff")
+		)
+		(pin "1"
+			(uuid "0640b36a-585b-45de-9584-409ffcbbbfcb")
+		)
+		(pin "3"
+			(uuid "2d540738-6c03-4c0e-bbdc-0a2b507868d6")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -6287,169 +6750,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Drone_components:BSC016N04LS")
-		(at 80.01 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab665800-2cae-4067-badf-6f4d2412e2ee")
-		(property "Reference" "Q3"
-			(at 82.55 92.6064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC016N04LS"
-			(at 82.55 95.1464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Drone_components:BSC016N04LS"
-			(at 79.248 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C534294.pdf"
-			(at 80.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon"
-			(at 80.01 69.088 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
-			(at 80.01 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 80.01 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 80.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
-			(at 80.264 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BSC016N04LS"
-			(at 79.502 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 80.01 67.056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
-			(at 79.248 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C534294"
-			(at 80.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1-3"
-			(uuid "7badd187-aec3-4069-9937-1617a9fb73c3")
-		)
-		(pin "4"
-			(uuid "e9769733-ef7c-42f6-8c0e-46b90a05ba34")
-		)
-		(pin "5-8"
-			(uuid "729e8c82-e7f4-41db-82d0-bf3a28231cdc")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 240.03 143.51 90)
 		(unit 1)
@@ -6617,169 +6917,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Drone_components:BSC016N04LS")
-		(at 80.01 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1903b50-2173-465c-8038-8dc181b79d9e")
-		(property "Reference" "Q4"
-			(at 82.55 112.9264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC016N04LS"
-			(at 82.55 115.4664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Drone_components:BSC016N04LS"
-			(at 79.248 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C534294.pdf"
-			(at 80.01 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon"
-			(at 80.01 89.408 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
-			(at 80.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 80.01 98.806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 80.01 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
-			(at 80.264 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BSC016N04LS"
-			(at 79.502 91.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 80.01 87.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
-			(at 79.248 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C534294"
-			(at 80.01 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1-3"
-			(uuid "4c4f4bba-2d83-403a-85c2-0319afaa5a65")
-		)
-		(pin "4"
-			(uuid "77592927-9a40-4604-acc9-4e9bc7e023bf")
-		)
-		(pin "5-8"
-			(uuid "4c3cd994-c7c6-4ad1-b765-4426b286f047")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 105.41 149.86 0)
 		(unit 1)
@@ -6846,8 +6983,148 @@
 		)
 	)
 	(symbol
+		(lib_id "Drone_components:BSC009NE2LS5IATMA1")
+		(at 77.47 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cee26cae-d412-4ad2-9f73-8ef4bd471781")
+		(property "Reference" "Q2"
+			(at 86.36 61.7171 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC009NE2LS5IATMA1"
+			(at 86.36 64.2571 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Drone_components:BSC093N04LSGATMA1"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 25V 40A 8TDSON IND"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Infineon Technologies"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "PowerTDFN-8 Infineon"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "1.32 USD"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BSC009NE2LS5IATMA1"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C122543"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3402732-33f4-41e0-b8da-624626b8ea12")
+		)
+		(pin "4"
+			(uuid "1a75c5de-8158-4918-8476-ec25e0ca5652")
+		)
+		(pin "5"
+			(uuid "9eaea183-5613-43d0-ba71-3386632bf6ac")
+		)
+		(pin "1"
+			(uuid "c24983a6-bfee-450c-8696-9673b511c1e4")
+		)
+		(pin "3"
+			(uuid "66db1fcc-9ca5-460d-ab96-0fb0eefec295")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 66.04 171.45 90)
+		(at 62.23 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6855,15 +7132,15 @@
 		(dnp no)
 		(uuid "d4bbc89a-ecfc-4328-8efd-df24033a3ee1")
 		(property "Reference" "R11"
-			(at 66.04 169.164 90)
+			(at 62.23 169.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33"
-			(at 66.04 173.99 90)
+		(property "Value" "10"
+			(at 62.23 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6871,7 +7148,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 173.228 90)
+			(at 62.23 173.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6880,7 +7157,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 171.45 0)
+			(at 62.23 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6889,7 +7166,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 66.04 171.45 0)
+			(at 62.23 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6898,7 +7175,7 @@
 			)
 		)
 		(property "JLCPCB part" "C25105"
-			(at 66.04 171.45 90)
+			(at 62.23 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,169 +7353,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Drone_components:BSC016N04LS")
-		(at 80.01 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e546490c-0fe6-40a2-a3c9-a5058432b359")
-		(property "Reference" "Q2"
-			(at 82.55 59.5864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC016N04LS"
-			(at 82.55 62.1264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Drone_components:BSC016N04LS"
-			(at 79.248 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C534294.pdf"
-			(at 80.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Infineon"
-			(at 80.01 36.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 40 V 31A (Ta), 100A (Tc) 2.5W (Ta), 139W (Tc) Surface Mount PG-TDSON-8-1"
-			(at 80.01 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 80.01 45.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 80.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=snap"
-			(at 80.264 43.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BSC016N04LS"
-			(at 79.502 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 80.01 34.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BSC016N04LS/Infineon/view-part/?ref=eda"
-			(at 79.248 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C534294"
-			(at 80.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1-3"
-			(uuid "b96967a3-5b46-437e-9252-907c66bce373")
-		)
-		(pin "4"
-			(uuid "0912f575-ffa6-40ab-ba00-09f77f59bb40")
-		)
-		(pin "5-8"
-			(uuid "652d72eb-8fce-4214-8729-db845984ff9c")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/1c0adf10-7558-4c66-8a8d-f42e3254a4bc"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 105.41 35.56 0)
 		(unit 1)
@@ -7266,7 +7380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 106.3752 39.37 0)
 			(effects
 				(font
@@ -7293,7 +7407,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB part" "C12891"
+		(property "JLCPCB part" "C45783"
 			(at 105.41 35.56 0)
 			(effects
 				(font

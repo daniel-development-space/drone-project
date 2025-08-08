@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.0,
-          "width": 2.5
+          "height": 4.505,
+          "width": 4.58
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -123,7 +123,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.3,
         "min_connection": 0.127,
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,

@@ -1718,7 +1718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 253.6952 144.78 0)
 			(effects
 				(font
@@ -1745,7 +1745,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB part" "C12891"
+		(property "JLCPCB part" "C45783"
 			(at 252.73 140.97 0)
 			(effects
 				(font
@@ -1995,7 +1995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 206.7052 144.78 0)
 			(effects
 				(font
@@ -2022,7 +2022,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB part" "C12891"
+		(property "JLCPCB part" "C45783"
 			(at 205.74 140.97 0)
 			(effects
 				(font
