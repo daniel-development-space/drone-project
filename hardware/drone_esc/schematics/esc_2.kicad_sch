@@ -4036,6 +4036,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 60.96 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18c7dd45-4f72-4255-8f2e-96471c4c873c")
+		(property "Reference" "R17"
+			(at 60.96 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 60.96 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 60.96 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C105889"
+			(at 60.96 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86ab8e9f-806c-4cbf-908e-d500fbda1c39")
+		)
+		(pin "2"
+			(uuid "ba82c8c4-3c5f-4508-b37b-392add77cc47")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Drone_components:RB520S30")
 		(at 262.89 96.52 90)
 		(unit 1)
@@ -4491,82 +4567,6 @@
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 60.96 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e6ddb86-abc6-4d95-9b71-e7bab1c77ed7")
-		(property "Reference" "R19"
-			(at 60.96 148.844 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47"
-			(at 60.96 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 60.96 152.908 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.96 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C25105"
-			(at 60.96 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c59f0dd1-cc4c-425e-82fe-47ce931f8733")
-		)
-		(pin "2"
-			(uuid "1082e42a-4007-4553-affc-cddcfefc4a79")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5590,6 +5590,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 60.96 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59547894-895d-4f8c-9b79-d260e23a4b94")
+		(property "Reference" "R14"
+			(at 60.96 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 60.96 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 60.96 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C105889"
+			(at 60.96 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9bdd216-bbe9-418c-8a31-3bc7ace4a0d8")
+		)
+		(pin "2"
+			(uuid "b32a4b88-fc8e-4e6c-ba87-766f549eee96")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a9672d7-8775-43b5-9890-05a85fcd2549")
+		(property "Reference" "R16"
+			(at 60.96 61.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 60.96 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 60.96 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C105889"
+			(at 60.96 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5330adf8-8d56-4d7a-9507-e7ffd3b98a90")
+		)
+		(pin "2"
+			(uuid "14fdfeaa-83d3-4081-b971-cca4a5420f70")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 262.89 115.57 0)
 		(unit 1)
@@ -6047,6 +6199,234 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 60.96 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88d28e9d-6038-42c4-af6f-1adc06a4a730")
+		(property "Reference" "R19"
+			(at 60.96 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 60.96 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 60.96 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C105889"
+			(at 60.96 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e555a45c-f042-4ed7-9ca0-354494906cc3")
+		)
+		(pin "2"
+			(uuid "24dbfe64-b3d0-4e48-8432-dbd1486a1632")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b99f8c4-a02e-474d-9012-111aae8d2b7b")
+		(property "Reference" "R18"
+			(at 60.96 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 60.96 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 60.96 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C105889"
+			(at 60.96 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "851f26a6-73d2-4abd-b005-a97cfe6f2101")
+		)
+		(pin "2"
+			(uuid "ea6ca824-3b9e-40d2-9aee-c58d00c972b7")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9060d26b-711b-4e22-8af3-bc4689dec890")
+		(property "Reference" "R20"
+			(at 60.96 169.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 60.96 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 60.96 173.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB part" "C105889"
+			(at 60.96 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e8fda9b-a8b7-460d-bdba-da26b060075d")
+		)
+		(pin "2"
+			(uuid "299a15f4-9278-4927-8685-b2a937752b03")
+		)
+		(instances
+			(project "drone_esc"
+				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 105.41 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6322,158 +6702,6 @@
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
 					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 60.96 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aca67723-b47d-49cc-93d9-9b775b070731")
-		(property "Reference" "R16"
-			(at 60.96 61.214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47"
-			(at 60.96 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 60.96 65.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.96 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C25105"
-			(at 60.96 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a87fb292-9e91-46e3-8097-56e5b436fb24")
-		)
-		(pin "2"
-			(uuid "befdcac0-6689-428a-aa63-e95061505cb3")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 60.96 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae0d57ad-b29a-49c9-a6cf-b287dc93a900")
-		(property "Reference" "R14"
-			(at 60.96 40.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47"
-			(at 60.96 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 60.96 44.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.96 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C25105"
-			(at 60.96 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f725b961-7e90-4f3d-a5bc-dffc32185d9a")
-		)
-		(pin "2"
-			(uuid "9ba3207b-6451-4c52-8f16-fa67225c6bce")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6839,82 +7067,6 @@
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 60.96 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d611b14b-bdfe-4401-b64e-6dde0995f07e")
-		(property "Reference" "R17"
-			(at 60.96 94.234 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47"
-			(at 60.96 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 60.96 98.298 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.96 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C25105"
-			(at 60.96 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "023a0655-26a7-4b14-8d79-4ce26f590647")
-		)
-		(pin "2"
-			(uuid "61eed0ab-530a-4ee5-a1eb-108c517aede3")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7327,158 +7479,6 @@
 			(project "drone_esc"
 				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 60.96 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa2d7a6b-d79d-4dce-9a44-40ea9fa39ea5")
-		(property "Reference" "R20"
-			(at 60.96 169.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47"
-			(at 60.96 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 60.96 173.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.96 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C25105"
-			(at 60.96 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68a7d535-9359-4e1e-85b0-ae2a03b8b73d")
-		)
-		(pin "2"
-			(uuid "91ddc236-27c4-4c14-9cc0-3440e107cf46")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 60.96 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa406c6c-3289-4d3c-9e29-9b2513c90b4a")
-		(property "Reference" "R18"
-			(at 60.96 114.554 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47"
-			(at 60.96 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 60.96 118.618 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.96 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB part" "C25105"
-			(at 60.96 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed6c4e22-c49d-4f7e-be3e-711474cee6c6")
-		)
-		(pin "2"
-			(uuid "b08d4d29-8e6e-45f1-9c7d-e1295636ba74")
-		)
-		(instances
-			(project "drone_esc"
-				(path "/b5a13fd4-6868-4fff-a56c-eae40f1d53c7/0e547849-098b-4e9e-9417-dcd1ad6b4af3"
-					(reference "R18")
 					(unit 1)
 				)
 			)
